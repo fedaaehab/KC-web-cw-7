@@ -6,10 +6,10 @@ return result
 console.log(BMI(10,10))
 console.log(BMI)
 
-function Status(bmi){
-if(bmi<18.5){
- return "لديك نقص في الوزن".
+function Status(bmi){ 
+if (bmi<18.5){
 
+ return "لديك نقص في الوزن"
 }
 
  else if(25>bmi>=18.5){
@@ -18,6 +18,7 @@ if(bmi<18.5){
 
 else if(bmi>=25){
  return "لديك زيادة في الوزن"
+ 
 
 }
 }
